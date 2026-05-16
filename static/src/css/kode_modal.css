@@ -1,0 +1,11 @@
+.btn_kode_modal {
+    background-color: #D97757 !important;
+    color: white !important;
+    white-space: nowrap !important;
+    min-width: 75px;
+    border: none;
+}
+.btn_kode_modal:hover {
+    background-color: #c4653f !important;
+    color: white !important;
+}

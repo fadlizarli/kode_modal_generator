@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="kode_modal_generator.ProductInfoPopup" t-inherit="point_of_sale.ProductInfoPopup" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[hasclass('d-flex','flex-column','justify-content-center')]" position="inside">
+            <span class="fs-3 fw-bold" t-if="props.product.kode_modal">
+                <t t-esc="props.product.kode_modal"/>
+            </span>
+        </xpath>
+        <xpath expr="//div[hasclass('section-financials')]" position="attributes">
+            <attribute name="t-if">_hasMarginsCostsAccessRights()</attribute>
+        </xpath>
+        <xpath expr="//div[hasclass('section-order')]" position="attributes">
+            <attribute name="t-if">_hasMarginsCostsAccessRights()</attribute>
+        </xpath>
+    </t>
+</templates>
