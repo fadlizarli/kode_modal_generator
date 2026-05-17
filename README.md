@@ -22,7 +22,7 @@ Module Odoo 17 untuk generate kode modal produk secara otomatis dari harga HPP (
 | 7     | E                    | G                    |
 | 8     | D                    | H                    |
 | 9     | A                    | I                    |
-| 0     | N                    | L                    |
+| 0     | N                    | Y                    |
 
 ## Contoh
 
